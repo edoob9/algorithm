@@ -7,9 +7,20 @@ Problem Solving As Search?
 3. Search Algorithm)
 
 ### Uninformed Search
-
+|제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
 
 ### Informed Search
+
+|제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+
 
 |search|Algorithm|basic Code|설명|
 |Uninformed Search|BFS|---|---|
