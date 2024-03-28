@@ -8,16 +8,15 @@ Problem Solving As Search?
 
 ### Uninformed Search
 
-|Algorithm|basic Code|설명|
-|BFS|[python code]|---|
-|DFS|[python code]|---|
-|Uniform Cost Search|[python code]|---|
 
 ### Informed Search
 
-|Algorithm|basic Code|설명|
-|Greedy|---|---|
-|A*star|[python code](https://github.com/edoob9/algorithm/blob/main/search/Astar.py)|테스트3|
+|search|Algorithm|basic Code|설명|
+|Uninformed Search|BFS|[python code]|---|
+|Uninformed Search|DFS|[python code]|---|
+|Uninformed Search|Uniform Cost Search|[python code]|---|
+|Informed Search|Greedy|---|---|
+|Informed Search|A*star|[python code](https://github.com/edoob9/algorithm/blob/main/search/Astar.py)|테스트3|
 
 
 
