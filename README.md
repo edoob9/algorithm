@@ -4,7 +4,7 @@
 |Algorithm|basic Code|설명|
 |------|---|---|
 |Greedy|테스트2|테스트3|
-|A*star|테스트2|테스트3|
+|A*star|[python code](https://github.com/edoob9/algorithm/blob/main/search/Astar.py)|테스트3|
 
 
 
