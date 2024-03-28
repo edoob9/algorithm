@@ -1,0 +1,36 @@
+# vaccum array^2
+def solution(moves):
+    x = y= 0
+    dx = [-1,0,1,0]
+    dy = [0,1,0,-1]
+    for command in moves:
+        if command == 'U':
+            x += dx[0]
+            y += dy[0]
+            if x < 0:
+                x =0
+            if y < 0:
+                y=0
+        if command == 'R':
+            x += dx[1]
+            y += dy[1]
+        if command == 'D':
+            x += dx[2]
+            y += dy[2]
+        if command == 'L':
+            x += dx[3]
+            y += dy[3]
+
+    return [x,y]
+
+print(solution('UUUUUUUUUUU'))
+# [-11, 0]
+# I wanna give restrictions. If x<0 or y<0, you can add condition => How?
+'''
+(simple add) 
+    if x < 0:
+        x =0
+    if y < 0:
+        y=0
+'''
+# [0, 0]
