@@ -7,28 +7,18 @@ Problem Solving As Search?
 3. Search Algorithm)
 
 ### Uninformed Search
-|제목|내용|설명|
+|Algorithm|basic Code|설명|
 |------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|BFS|---|---|
+|DFS|---|---|
+|Uniform Cost Search|---|---|
 
 ### Informed Search
 
-|제목|내용|설명|
+|Algorithm|basic Code|설명|
 |------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-
-
-|search|Algorithm|basic Code|설명|
-|Uninformed Search|BFS|---|---|
-|Uninformed Search|DFS|---|---|
-|Uninformed Search|Uniform Cost Search|---|---|
-|Informed Search|Greedy|---|---|
-|Informed Search|A*star|[python code](https://github.com/edoob9/algorithm/blob/main/search/Astar.py)|테스트3|
-
+|Greedy|---|---|
+|A*star|[python code](https://github.com/edoob9/algorithm/blob/main/search/Astar.py)|테스트3|
 
 
 # Index
