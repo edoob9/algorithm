@@ -58,3 +58,25 @@ def solution(moves):
             
 print(solution('RRRDDDLU'))
 print(solution('UUUUUUUUUUU'))
+
+'''
+        ver.3.
+'''
+
+def solution(n, moves):
+    x =y =0
+    dx = [-1,0,1,0]
+    dy = [0,1,0,-1]
+    dir = ['U', 'R', 'D', 'L']
+    for i in moves:
+        for k in range(len(dir)):
+            if dir[k] == i:
+                nx = x + dx[k]
+                ny = y + dy[k]
+                if nx < 0 and nx >= n and ny < 0 and ny >= n:
+                    continue
+        x = nx
+        y = ny
+    return [x,y]
+            
+print(solution(6, 'RRRDDDLURRRR'))
