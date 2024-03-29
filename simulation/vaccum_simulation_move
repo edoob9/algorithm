@@ -1,4 +1,6 @@
-# vaccum array^2
+'''
+        ver.1.
+'''
 def solution(moves):
     x = y= 0
     dx = [-1,0,1,0]
@@ -34,3 +36,25 @@ print(solution('UUUUUUUUUUU'))
         y=0
 '''
 # [0, 0]
+
+'''
+        ver.2.
+'''
+def solution(moves):
+    x =y =0
+    dx = [-1,0,1,0]
+    dy = [0,1,0,-1]
+    dir = ['U', 'R', 'D', 'L']
+    for i in moves:
+        for k in range(len(dir)):
+            if dir[k] == i:
+                x += dx[k]
+                y += dy[k]
+                if x < 0:
+                    x =0
+                if y < 0:
+                    y=0 
+    return [x,y]
+            
+print(solution('RRRDDDLU'))
+print(solution('UUUUUUUUUUU'))
